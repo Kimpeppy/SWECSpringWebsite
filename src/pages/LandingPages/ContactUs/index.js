@@ -31,7 +31,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Image
-import bgImage from "assets/images/illustrations/illustration-reset.jpg";
+import bgImage from "assets/images/keyboard-dark-and-blue-aesthetic-laptop-af8xykspbmg012jp.jpg";
 
 function ContactUs() {
   return (
@@ -42,7 +42,7 @@ function ContactUs() {
           action={{
             type: "external",
             route: "https://www.creative-tim.com/product/material-kit-react",
-            label: "free download",
+            label: "join us",
             color: "info",
           }}
         />
@@ -95,8 +95,8 @@ function ContactUs() {
             </MKBox>
             <MKBox p={3}>
               <MKTypography variant="body2" color="text" mb={3}>
-                For further questions, including partnership opportunities, please email
-                hello@creative-tim.com or contact using our contact form.
+                For further questions, including collaborative opportunities, please contact us
+                using this form.
               </MKTypography>
               <MKBox width="100%" component="form" method="post" autoComplete="off">
                 <Grid container spacing={3}>

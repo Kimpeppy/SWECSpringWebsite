@@ -118,7 +118,6 @@ function TransparentBlogCard({ image, title, description, action }) {
             sx={cardActionStyles}
           >
             {action.label}
-            <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
           </MKTypography>
         ) : (
           <MKTypography

@@ -16,7 +16,6 @@ Coded by www.creative-tim.com
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Divider from "@mui/material/Divider";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -33,25 +32,24 @@ function Counters() {
             <DefaultCounterCard
               count={70}
               suffix="+"
-              title="Coded Elements"
-              description="From buttons, to inputs, navbars, alerts or cards, you are covered"
+              title="Members"
+              description="In our diverse community"
             />
           </Grid>
           <Grid item xs={12} md={4} display="flex">
-            <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, mx: 0 }} />
             <DefaultCounterCard
               count={15}
               suffix="+"
-              title="Design Blocks"
-              description="Mix the sections, change the colors and unleash your creativity"
+              title="Projects"
+              description="Completed within our club"
             />
-            <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4} display="flex">
             <DefaultCounterCard
-              count={4}
-              title="Pages"
-              description="Save 3-4 weeks of work when you use our pre-made pages for your website"
+              count={12}
+              suffix="+"
+              title="GBMs"
+              description="Held so far for our members"
             />
           </Grid>
         </Grid>

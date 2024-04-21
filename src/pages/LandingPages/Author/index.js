@@ -18,21 +18,23 @@ import Card from "@mui/material/Card";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
+// import MKTypography from "components/MKTypography";
+// import { Grid } from "@mui/material";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Author page sections
-import Profile from "pages/LandingPages/Author/sections/Profile";
+
 import Posts from "pages/LandingPages/Author/sections/Posts";
 import Contact from "pages/LandingPages/Author/sections/Contact";
-import Footer from "pages/LandingPages/Author/sections/Footer";
 
 // Routes
 import routes from "routes";
 
 // Images
-import bgImage from "assets/images/city-profile.jpg";
+import bgImage from "assets/images/keyboard-dark-and-blue-aesthetic-laptop-af8xykspbmg012jp.jpg";
+// import Container from "assets/theme/components/container";
 
 function Author() {
   return (
@@ -42,7 +44,7 @@ function Author() {
         action={{
           type: "external",
           route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          label: "join us",
           color: "info",
         }}
         transparent
@@ -75,11 +77,9 @@ function Author() {
             boxShadow: ({ boxShadows: { xxl } }) => xxl,
           }}
         >
-          <Profile />
           <Posts />
         </Card>
         <Contact />
-        <Footer />
       </MKBox>
     </>
   );

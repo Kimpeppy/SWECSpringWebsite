@@ -45,20 +45,16 @@ function BuiltByDevelopers() {
     >
       <Container>
         <Grid container item xs={12} lg={6} sx={{ ml: { xs: 0, lg: 6 } }}>
-          <MKTypography variant="h4" color="white" fontWeight="bold">
-            Built by developers
-          </MKTypography>
           <MKTypography variant="h1" color="white" mb={1}>
-            Complex Documentation
+            Check out our Project Matching Platform!
           </MKTypography>
           <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
-            From colors, cards, typography to complex elements, you will find the full
-            documentation. Play with the utility classes and you will create unlimited combinations
-            for our components.
+            The Project Matching Platform, developed by the Software Engineering Club, is a
+            collaborative tool designed to connect developers with exciting project opportunities.
           </MKTypography>
           <MKTypography
             component="a"
-            href="https://www.creative-tim.com/learning-lab/react/overview/material-kit/"
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             target="_blank"
             rel="noreferrer"
             variant="body2"

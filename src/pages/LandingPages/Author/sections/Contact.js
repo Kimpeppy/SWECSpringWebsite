@@ -70,23 +70,8 @@ function Contact() {
                       Contact Information
                     </MKTypography>
                     <MKTypography variant="body2" color="white" opacity={0.8} mb={3}>
-                      Fill up the form and our Team will get back to you within 24 hours.
+                      Fill up the form to be a part of our Slack.
                     </MKTypography>
-                    <MKBox display="flex" p={1}>
-                      <MKTypography variant="button" color="white">
-                        <i className="fas fa-phone" />
-                      </MKTypography>
-                      <MKTypography
-                        component="span"
-                        variant="button"
-                        color="white"
-                        opacity={0.8}
-                        ml={2}
-                        fontWeight="regular"
-                      >
-                        (+40) 772 100 200
-                      </MKTypography>
-                    </MKBox>
                     <MKBox display="flex" color="white" p={1}>
                       <MKTypography variant="button" color="white">
                         <i className="fas fa-envelope" />
@@ -138,10 +123,10 @@ function Contact() {
                 <MKBox component="form" p={2} method="post">
                   <MKBox px={3} py={{ xs: 2, sm: 6 }}>
                     <MKTypography variant="h2" mb={1}>
-                      Say Hi!
+                      Our Membership Form
                     </MKTypography>
                     <MKTypography variant="body1" color="text" mb={2}>
-                      We&apos;d like to talk with you.
+                      We&apos;d love to have you.
                     </MKTypography>
                   </MKBox>
                   <MKBox pt={0.5} pb={3} px={3}>
@@ -150,7 +135,7 @@ function Contact() {
                         <MKInput
                           variant="standard"
                           label="My name is"
-                          placeholder="Full Name"
+                          placeholder="Example: Jane Doe"
                           InputLabelProps={{ shrink: true }}
                           fullWidth
                         />
@@ -158,8 +143,8 @@ function Contact() {
                       <Grid item xs={12} pr={1} mb={6}>
                         <MKInput
                           variant="standard"
-                          label="I'm looking for"
-                          placeholder="What you love"
+                          label="JHED"
+                          placeholder="Example: abc@jhu.edu"
                           InputLabelProps={{ shrink: true }}
                           fullWidth
                         />
@@ -167,12 +152,19 @@ function Contact() {
                       <Grid item xs={12} pr={1} mb={6}>
                         <MKInput
                           variant="standard"
-                          label="Your message"
-                          placeholder="I want to say that..."
+                          label="Major"
+                          placeholder="Example: Computer Science"
                           InputLabelProps={{ shrink: true }}
                           fullWidth
-                          multiline
-                          rows={6}
+                        />
+                      </Grid>
+                      <Grid item xs={12} pr={1} mb={6}>
+                        <MKInput
+                          variant="standard"
+                          label="Graduation Year"
+                          placeholder="Example: 2027"
+                          InputLabelProps={{ shrink: true }}
+                          fullWidth
                         />
                       </Grid>
                     </Grid>
@@ -186,7 +178,7 @@ function Contact() {
                       ml="auto"
                     >
                       <MKButton variant="gradient" color="info">
-                        Send Message
+                        Join
                       </MKButton>
                     </Grid>
                   </MKBox>
