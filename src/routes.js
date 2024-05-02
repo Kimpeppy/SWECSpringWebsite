@@ -88,28 +88,84 @@ const routes = [
       {
         name: "Interview preparation",
         description: "Test out your coding interview skills",
-        href: "https://leetcode.com/",
+        dropdown: true,
+        collapse: [
+          {
+            name: "LeetCode",
+            href: "https://leetcode.com/problems/predict-the-winner/description/",
+          },
+          {
+            name: "NeetCode",
+            href: "https://leetcode.com/problems/predict-the-winner/description/",
+          },
+          {
+            name: "Quiz Me",
+            href: "https://leetcode.com/problems/predict-the-winner/description/",
+          },
+        ],
       },
       {
         name: "debugging",
         description: "Check out this forum",
-        href: "https://stackoverflow.com/",
+        dropdown: true,
+        collapse: [
+          {
+            name: "Stack Overflow",
+            href: "https://leetcode.com/problems/predict-the-winner/description/",
+          },
+          {
+            name: "Geeks4Geeks",
+            href: "https://leetcode.com/problems/predict-the-winner/description/",
+          },
+          {
+            name: "Code Project",
+            href: "https://leetcode.com/problems/predict-the-winner/description/",
+          },
+        ],
       },
       {
         name: "Learning",
-        description: "Free resource for improving coding skills",
-        href: "https://www.freecodecamp.org//",
+        description: "Resource for improving coding skills",
+        dropdown: true,
+        collapse: [
+          {
+            name: "FreeCodeCamp",
+            href: "https://leetcode.com/problems/predict-the-winner/description/",
+          },
+          {
+            name: "Coursera",
+            href: "https://leetcode.com/problems/predict-the-winner/description/",
+          },
+          {
+            name: "Udemy",
+            href: "https://leetcode.com/problems/predict-the-winner/description/",
+          },
+        ],
       },
       {
         name: "projects",
         description: "Looking to build a project",
-        href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/",
+        dropdown: true,
+        collapse: [
+          {
+            name: "Project Matching",
+            href: "https://leetcode.com/problems/predict-the-winner/description/",
+          },
+          {
+            name: "Develop for Good",
+            href: "https://leetcode.com/problems/predict-the-winner/description/",
+          },
+          {
+            name: "Projects",
+            href: "https://leetcode.com/problems/predict-the-winner/description/",
+          },
+        ],
       },
     ],
   },
   {
-    name: "Membership & Events",
-    icon: <Icon>person</Icon>,
+    name: "Our Events",
+    icon: <Icon>event</Icon>,
     route: "/pages/landing-pages/author",
     component: <Author />,
   },
