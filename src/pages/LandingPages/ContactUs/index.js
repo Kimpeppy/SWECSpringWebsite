@@ -1,18 +1,3 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Grid from "@mui/material/Grid";
 
@@ -24,11 +9,11 @@ import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+//import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // Routes
 import routes from "routes";
-import footerRoutes from "footer.routes";
+//import footerRoutes from "footer.routes";
 
 // Image
 import bgImage from "assets/images/keyboard-dark-and-blue-aesthetic-laptop-af8xykspbmg012jp.jpg";
@@ -41,7 +26,8 @@ function ContactUs() {
           routes={routes}
           action={{
             type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-react",
+            route:
+              "https://docs.google.com/forms/d/e/1FAIpQLSfkV2LGPVczusVlnNizA4fUj-pP6_knvwsbfuQ1kG9aYh70Bg/viewform?usp=sf_link",
             label: "join us",
             color: "info",
           }}
@@ -139,9 +125,6 @@ function ContactUs() {
           </MKBox>
         </Grid>
       </Grid>
-      <MKBox pt={6} px={1} mt={6}>
-        <DefaultFooter content={footerRoutes} />
-      </MKBox>
     </>
   );
 }
